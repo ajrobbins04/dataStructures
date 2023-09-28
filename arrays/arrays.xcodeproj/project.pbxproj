@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		020CD4172AC5FCE3000798B4 /* testArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 020CD4162AC5FCE3000798B4 /* testArray.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		020CD4082AC5FA26000798B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +25,9 @@
 /* Begin PBXFileReference section */
 		020CD40A2AC5FA26000798B4 /* arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		020CD4152AC5FAA3000798B4 /* array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		020CD4162AC5FCE3000798B4 /* testArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testArray.cpp; sourceTree = "<group>"; };
+		020CD4182AC5FD0E000798B4 /* testArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testArray.h; sourceTree = "<group>"; };
+		020CD4192AC5FD39000798B4 /* unitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unitTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				020CD4152AC5FAA3000798B4 /* array.h */,
+				020CD4162AC5FCE3000798B4 /* testArray.cpp */,
+				020CD4182AC5FD0E000798B4 /* testArray.h */,
+				020CD4192AC5FD39000798B4 /* unitTest.h */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -115,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020CD4172AC5FCE3000798B4 /* testArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
